@@ -1,0 +1,63 @@
+# Data — large DICOM files, not tracked
+data/
+
+# Model checkpoints
+checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cloned official benchmark repo — not part of our submission code
+echorisk-benchmark/
+
+# Archive
+archive/
+
+# Large files / weights / images
+checkpoints*/
+*.pt
+*.pth
+*.ckpt
+*.tar.gz
+*.zip
+submission/images/
+submission/weights/
+submission/checkpoints/
+
+# Local tooling
+.claude/
+
+# Paper reference material (third-party)
+paper/2607.01039v1.pdf
+paper/Springer_Lecture_Notes_in_Computer_Science/
