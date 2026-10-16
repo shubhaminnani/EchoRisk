@@ -3,6 +3,12 @@
 Cardio-oncology risk prediction from echocardiography video (DICOM).  
 Three tasks using a shared R(2+1)D-18 backbone with dual-view (A4C + A2C) fusion.
 
+## Results
+
+On the official test-set leaderboard we placed **3rd in Task 2** (LV Dysfunction Classification) and **2nd in Task 3** (Cardiotoxicity Prediction).
+
+![EchoRisk architecture](assets/echorisk.png)
+
 ---
 
 ## Tasks
