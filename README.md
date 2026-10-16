@@ -160,3 +160,22 @@ Frame sampling: `np.linspace(0, T-1, 32)` — uniform, always exactly 32 frames.
 
 Tested on 2× NVIDIA RTX 6000 Ada (49 GB each), driver 572.16, CUDA 12.x.  
 Mixed-precision training (AMP) enabled automatically when a GPU is available.
+
+---
+
+## Citation
+
+If you use this code, please cite:
+
+```bibtex
+@InProceedings{InnShu_One_MICCAISAT2026,
+    author    = {Innani, Shubham and Feldman, Michael and Bakas, Spyridon},
+    title     = {{One Encoder to Address All: Cardio-Oncology Assessment of Left Ventricular Ejection Fraction, Left Ventricular Dysfunction, and Early Cardiotoxicity in Echocardiography Cine Loops}},
+    booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2026 Workshops and Challenges},
+    year      = {2026},
+    publisher = {Springer Nature Switzerland},
+    volume    = {LNCS 17268},
+    month     = {pending},
+    pages     = {pending}
+}
+```
