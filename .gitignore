@@ -61,3 +61,6 @@ submission/checkpoints/
 # Paper reference material (third-party)
 paper/2607.01039v1.pdf
 paper/Springer_Lecture_Notes_in_Computer_Science/
+
+# Paper (kept local only)
+paper/
